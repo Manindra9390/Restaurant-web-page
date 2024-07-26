@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Light grey background */
+    color: #333; /* Dark grey text */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.about-container {
+    background-color: #ffffff; /* White background for the container */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+    max-width: 800px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #00796b; /* Teal color for the main heading */
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #004d40; /* Dark teal color for subheadings */
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #e0f7fa; /* Light cyan background for list items */
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #00796b; /* Teal color for list item text */
+}
+
+ul li strong {
+    color: #004d40; /* Dark teal color for strong text */
+}
